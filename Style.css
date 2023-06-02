@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(73, 134, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.title{
+    text-align: center;
+}
+.container{
+    display: flex;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.for{
+    position: relative;
+    width: 350px;
+    margin-bottom: 35px;
+  
+}
+input{
+    border-color: black;
+    border-radius: 15px;
+    width: 300px;
+    height: 35px;
+    
+}
+input::placeholder{
+    font-family: cursive;
+    color: rgb(173, 151, 151);
+    padding-left: 25px;
+}
+.boton{
+    color: white;
+    background-color:  rgb(73, 134, 134);
+    font-size:20px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: rgb(62, 168, 168);
+}
+
+.success{
+    position: absolute;
+    top:50px;
+    color: green;
+    font-size: 18px;
+}
+
+.error{
+    position: absolute;
+    top:50px;
+    color: red;
+    font-size: 18px;
+}
